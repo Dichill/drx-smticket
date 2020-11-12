@@ -9,6 +9,12 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 * Official Website of **<a href="https://smtickets.com/">SM Ticket</a>**
 * Help the victims of **<a href="https://www.nbcnews.com/better/lifestyle/how-help-victims-hurricane-dorian-ncna1050851#:~:text=You%20can%20make%20a%20donation,phone%20bill%2C%20Cooper%20says).">Hurricane Dorian</a>**
 
+## Documentation
+```python
+import scrapy as sm 
+```
+<p style="text-align=center;">What we need to do is import scrapy.py In order to import it, the file must be in the same directory as scrapy.py, if it doesn't work use importlib</p>
+
 ## USAGE [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket)
 ```python
 # Gets only the "title" in a list
