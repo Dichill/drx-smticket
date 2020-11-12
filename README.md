@@ -10,7 +10,7 @@
 * **Get Data from https://smticket.com/ and be ahead of anyone**
 * **Get Tickets easily with just a click!**
 
-## SCRAPER EXAMPLE
+## USAGE
 ```python
 # =======================================================================================================#
 #                                                                                                        #
@@ -58,5 +58,5 @@ for article in FetchMovieResults():
 
 # =======================================================================================================#
 ```
-## Output
+## OUTPUT
 ![alt text](https://i.imgur.com/N8llFnv.jpg)
