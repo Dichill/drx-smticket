@@ -22,8 +22,22 @@ import scrapy as sm
 
 sm.Search = Input("What to Search: ")
 ```
-<p style="text-align=center;">Now we will call one of the variables in Scrappy which is <strong>Search</strong>, The <strong>Search</strong> Variable contains what to search on 
+<p style="text-align:center;">Now we will call one of the variables in Scrappy which is <strong>Search</strong>, The <strong>Search</strong> Variable contains what to search on 
      <strong><a href="https://smticket.com/">SM Ticket</a></strong>, we want to know what the user really wants to search so we add <strong>Input</strong> <italic>(Any method is fine as long as you pass a string variable.)</italic></p>
+     
+ ```python
+import scrapy as sm
+
+sm.Search = Input("What to Search: ")
+
+try:
+    for article in scraper.FetchMovieResults():
+        for x in range(0, int(article['results'])):
+            print(article['title'][x] + " | " + article['date'][x] + " | " + article['location'][x] + " | " + article['link'][x] + "\n")
+except Exception as e:
+    print(e)
+```
+<p style="text-align:center;"></p>
 
 ## USAGE [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket)
 ```python
