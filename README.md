@@ -8,29 +8,29 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 ## USAGE
 ```python
 # Gets only the "title" in a list
-#for article in FetchMovieResults():
-#    print(article['title'])
+for article in FetchMovieResults():
+    print(article['title'])
 
 # Gets only the "location" in a list
-#for article in FetchMovieResults():
-#    print(article['location'])
+for article in FetchMovieResults():
+    print(article['location'])
 
 # Gets only the "date" in a list
-#for article in FetchMovieResults():
-#    print(article['date'])
+for article in FetchMovieResults():
+    print(article['date'])
 
 # Gets the 'link' to the website to be scraped.
-#for article in FetchMovieResults():
-#    print(article['link'])
+for article in FetchMovieResults():
+    print(article['link'])
 
 # Specify what no. of list to show.
-#for article in FetchMovieResults():
-#    print(article['link'][0])
+for article in FetchMovieResults():
+    print(article['link'][0])
 
 # Gets all the list of search results.
-#for article in FetchMovieResults():
-    #print(article['title'])
-    #print(article)
+for article in FetchMovieResults():
+    print(article['title'])
+    print(article)
     
 # Gets all of them in an organized manner.
 for article in FetchMovieResults():
