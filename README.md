@@ -7,7 +7,7 @@ DrX - SM Ticket is a API and a Website and can be accesible to anyone to get dai
 trying to have some fun in coding and such. Feel free to contribute and make some changes in the **<a href="https://github.com/Dichill/drx-smticket/issues">Issues</a>** page.
 
 * Official Website of **<a href="https://smtickets.com/">SM TICKET</a>**
-<iframe height="400px" width="100%" src="https://repl.it/@Dichill/drx-smticket?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+[![Run on Repl.it](https://repl.it/@Dichill/DrX-SMTicket)](https://repl.it/@Dichill/DrX-SMTicket)
 ## USAGE
 ```python
 # Gets only the "title" in a list
