@@ -36,8 +36,6 @@ for article in FetchMovieResults():
 for article in FetchMovieResults():
     for x in range(0, int(article['results'])):
         print(article['title'][x] + " | " + article['date'][x] + " | " + article['location'][x] + " | " + article['link'][x] + "\n")
-
-# =======================================================================================================#
 ```
 ## OUTPUT
 ![alt text](https://i.imgur.com/N8llFnv.jpg)
