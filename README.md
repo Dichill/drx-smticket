@@ -9,7 +9,7 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 * Official Website of **<a href="https://smtickets.com/">SM Ticket</a>**
 * Help the victims of **<a href="https://www.nbcnews.com/better/lifestyle/how-help-victims-hurricane-dorian-ncna1050851#:~:text=You%20can%20make%20a%20donation,phone%20bill%2C%20Cooper%20says).">Hurricane Dorian</a>**
 
-## Documentation | Search Function
+## Documentation | Search Function <img alt="Read the Docs" src="https://img.shields.io/readthedocs/pip">
 
 ### Importing
 ```python
@@ -62,7 +62,7 @@ int(article['results'])
 # Let x be any integer number
 article['title'][x]
 ```
-<p style="text-align:center;">As what it said, Let x be any integer number. As long as that number doesn't exceed on how many results are there in the search results. If you let x be '1' then it will print out the first title in the list.</p>
+<p style="text-align:center;">As what it said, Let x be any integer number. As long as that number doesn't exceed on how many results are there in the search results it wont return an error. If you let x be '1' then it will print out the first title in the list.</p>
 
 <hr>
 
