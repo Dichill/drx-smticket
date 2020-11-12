@@ -1,6 +1,6 @@
 # SM Ticket
 
-<img src="https://ai.github.io/size-limit/logo.svg" align="right"
+<img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/business/06/26/20190626-sm-cinema.jpg?ext=.jpg" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
 DrX - SM Ticket is a API and a Website and can be accesible to anyone to get daily events, searches, and more in any SM Branch in the Philippines. This is not the official API being used by the professionals. This is just a fun project to upcoming programmers who are
