@@ -1,7 +1,7 @@
 # SM Ticket [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket) <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/Django">
 
 <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/business/06/26/20190626-sm-cinema.jpg?ext=.jpg" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="170" height="170">
+     alt="Size Limit logo by Anton Lovchikov" width="200" height="170">
 
 DrX - SM Ticket is a API and a Website and can be accesible to anyone to get daily events, searches, and more in any SM Branch in the Philippines. This is not the official API being used by the professionals. This is just a fun project to upcoming programmers who are
 trying to have some fun in coding and such. Feel free to contribute and make some changes in the **<a href="https://github.com/Dichill/drx-smticket/issues">Issues</a>** page.
