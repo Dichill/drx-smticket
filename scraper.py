@@ -42,20 +42,31 @@
 # Important!
 IsDebugging = True
 
-from bs4 import BeautifulSoup
-import json
+# Store the Error Message
+ErrorMessage = set()
+IsError = False
+
+
+from urllib.request import urlopen as uReq
+from bs4 import BeautifulSoup as bs4
+from selenium import webdriver
 import requests
+import time
+import json
+
 
 # Urls
 url = 'https://smtickets.com/' # Main Domain of the SM Website
 searchurl = url + 'events/search/' # Search URL
 
-# Store the Error Message
-ErrorMessage = set()
-IsError = False
+# Login Credentials
+login_route = 'users/login'
+HEADERS = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'}
 
 # Example of what to search. This will be used on Django sooner or later.
 Search = input("Title of Movie: ")
+Username = "DichillTomarong" #input("Username: ")
+Password = "dichill1212" #input("Password: ")
 
 # This is where the magic begins
 def FetchMovieResults():
@@ -69,10 +80,10 @@ def FetchMovieResults():
     # Movie Data | In this part we want to store the data that we have scraped. And the reason why we have set() is to remove
     #              Duplicates that are going to be stored later on.
     
-    movie_title = set()
+    movie_title = []
     movie_date = []
-    movie_location = set()
-    movie_link = set()
+    movie_location = []
+    movie_link = []
 
     # Move Result | This is where the final results comes in. It is stored here to be returned at the Django to pass information about
     #               The data that we have scraped.
@@ -88,7 +99,7 @@ def FetchMovieResults():
     r = requests.get(searchurl + Search)
 
     # This is the part where we are gonna get the source code of the website.
-    soup = BeautifulSoup(r.content, features="lxml")
+    soup = bs4(r.content, "html5lib")
     print("[DrX] Scraping ./.")
 
     # We want to find the div that holds the search-results so we can get information from that.
@@ -107,11 +118,11 @@ def FetchMovieResults():
 
                     # Title - Gets the title of the Movie
                     article = li.find_all('div', {"class":""})
-                    movie_title.add(article[0].text)
+                    movie_title.append(article[0].text)
 
                     # Location - Where is it happening and etc.
                     location = article[2].text
-                    movie_location.add(location)
+                    movie_location.append(location)
 
                     # Date - Gets the date of the movie
                     date = li.find("span", {"class":"o-date"})
@@ -124,7 +135,7 @@ def FetchMovieResults():
                     # Theres a lot of buttons but we have to make sure that one of them contains a http.
                     for bttn in li.select('button[onclick*="http"]'):
                         # Now we fetch the data from 'onclick' in our bttn and it will retrieve the link.
-                        movie_link.add(bttn['onclick'].split("'")[1])
+                        movie_link.append(bttn['onclick'].split("'")[1])
                     IsError = False
 
     except Exception as e:
@@ -163,18 +174,46 @@ def FetchMovieResults():
 
 
     # Returns the movie_result so that we can use StartScrape from any other python scripts as long as it is imported.
+    # We also want to clear them when someone decides to load up another one.
+    
     if IsError == False:
         return movie_result
+        movie_title.clear()
+        movie_location.clear()
+        movie_date.clear()
+        movie_link.clear()
+        movie_result.clear()
     elif IsError == True:
         return ErrorMessage
+        movie_title.clear()
+        movie_location.clear()
+        movie_date.clear()
+        movie_link.clear()
+        movie_result.clear()
                         
     #for x in range(len(list(data))):
     #    movie_result.append(list(data)[x])
 
-def FetchSelectedResult(link):
-    r = requests.get(link)
-    soup = BeautifulSoup(r.content, features='lmxl')
-    print("[DrX] Scraping selected Result ./.")
+def FetchSelectedResult(username, pwd, link):
+    s = requests.session()
+
+    login_payload = {
+        'login': username,
+        'password': pwd
+    }
+
+    login_req = s.post(url + login_route, headers=HEADERS, data=login_payload)
+    print("[DrX] Login Confirmation: " + str(login_req.status_code))
+    
+    cookies = login_req.cookies
+    
+    print(s.get(link).text)
+    
+    #r = requests.get(link)
+    #soup = bs4(r.content, features='lmxl')
+    #print("[DrX] Scraping selected Result ./.")
+
+
 
 # =======================================================================================================#
 #                                                                                                        #
@@ -227,8 +266,12 @@ def FetchSelectedResult(link):
 #    print(article['link'][0])
 
 # Gets all the list of search results.
-for article in FetchMovieResults():
-    #print(article['title'])
-    print(article)
+#for article in FetchMovieResults():
+#    print(article)
 
+for article in FetchMovieResults():
+    for x in range(0, int(article['results'])):
+        print(article['title'][x] + " | " + article['date'][x] + " | " + article['location'][x] + " | " + article['link'][x] + "\n")
+
+#FetchSelectedResult(Username, Password, "https://smtickets.com/events/view/9471")
 # =======================================================================================================#
