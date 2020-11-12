@@ -10,7 +10,7 @@
 * **Get Data from https://smticket.com/ and be ahead of anyone**
 * **Get Tickets easily with just a click!**
 
-## SCRAPER USAGE FOR THOSE WHO ARE NEW TO PROGRAMMING AND WANT TO GET DATA FROM SMTICKET
+## SCRAPER EXAMPLE
 ```python
 # =======================================================================================================#
 #                                                                                                        #
