@@ -1,4 +1,4 @@
-# SMTICKET | API | DJANGO | HEROKU
+# SM Ticket
 * DrX SMTICKET WEBSITE: *(Coming Soon)*
 * DrX SMTICKET ANDROID: *(Coming Soon)*
 * DrX SMTICKET PC: *(Coming Soon)*
