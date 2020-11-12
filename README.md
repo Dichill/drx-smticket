@@ -48,9 +48,13 @@
 #    print(article['link'][0])
 
 # Gets all the list of search results.
-for article in FetchMovieResults():
+#for article in FetchMovieResults():
     #print(article['title'])
-    print(article)
+    #print(article)
+    
+for article in FetchMovieResults():
+    for x in range(0, int(article['results'])):
+        print(article['title'][x] + " | " + article['date'][x] + " | " + article['location'][x] + " | " + article['link'][x] + "\n")
 
 # =======================================================================================================#
 ```
