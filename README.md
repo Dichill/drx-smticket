@@ -1,14 +1,9 @@
-# SM Ticket
-* DrX SMTICKET WEBSITE: *(Coming Soon)*
-* DrX SMTICKET ANDROID: *(Coming Soon)*
-* DrX SMTICKET PC: *(Coming Soon)*
-* Official Link: https://smticket.com/
+# SM Ticket | API | Heroku | Django [![Cult Of Martians][cult-img]][cult]
 
-## FEATURES
-* **Fast Search and Fast Automated Bot!**
-* **Open source for more improvements!**
-* **Get Data from https://smticket.com/ and be ahead of anyone**
-* **Get Tickets easily with just a click!**
+DrX - SM Ticket is a API and a Website and can be accesible to anyone to get daily events, searches, and more in any SM Branch in the Philippines. This is not the official API being used by the professionals. This is just a fun project to upcoming programmers who are
+trying to have some fun in coding and such. Feel free to contribute and make some changes in the **<a href="https://github.com/Dichill/drx-smticket/issues">Issues</a>** page.
+
+* Official Website of **<a href="https://smtickets.com/">SM TICKET</a>**
 
 ## USAGE
 ```python
