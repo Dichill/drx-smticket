@@ -37,7 +37,20 @@ try:
 except Exception as e:
     print(e)
 ```
-<p style="text-align:center;"></p>
+<p style="text-align:center;">Now we want to add a try/except to make it neat and to know what caused the problem. Mostly the problem that users will meet is that
+if they search an invalid movie title it will return a 'NoneType' exception or a Iterable exception.</p>
+
+```python
+int(article['results'])
+```
+<p style="text-align:center;">Now in the third example, why are we finding for the range of our results? Well its simple, we want to know how many results returned, lets say for example it returned a number of 9. Since we are in a for loop we want to print out on how many title, date, location, and link that the result gave.</p>
+
+```python
+
+# Let x be any integer number
+article['title'][x]
+```
+<p style="text-align:center;">As what it said, Let x be any integer number. As long as that number doesn't exceed on how many results are there in the search results. If you let x be '1' then it will print out the first title in the list.</p>
 
 ## USAGE [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket)
 ```python
