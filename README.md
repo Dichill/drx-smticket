@@ -56,7 +56,7 @@ int(article['results'])
 
 <hr>
 
-### Working with list
+### Working with List
 ```python
 
 # Let x be any integer number
