@@ -1,4 +1,4 @@
-# SM Ticket
+# SM Ticket [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket)
 
 <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/business/06/26/20190626-sm-cinema.jpg?ext=.jpg" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="170" height="170">
@@ -7,7 +7,6 @@ DrX - SM Ticket is a API and a Website and can be accesible to anyone to get dai
 trying to have some fun in coding and such. Feel free to contribute and make some changes in the **<a href="https://github.com/Dichill/drx-smticket/issues">Issues</a>** page.
 
 * Official Website of **<a href="https://smtickets.com/">SM TICKET</a>**
-[![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket)
 ## USAGE
 ```python
 # Gets only the "title" in a list
