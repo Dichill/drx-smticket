@@ -65,8 +65,8 @@ HEADERS = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/5
 
 # Example of what to search. This will be used on Django sooner or later.
 Search = input("Title of Movie: ")
-Username = "DichillTomarong" #input("Username: ")
-Password = "dichill1212" #input("Password: ")
+#input("Username: ")
+#input("Password: ")
 
 # This is where the magic begins
 def FetchMovieResults():
