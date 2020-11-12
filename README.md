@@ -38,4 +38,14 @@ for article in FetchMovieResults():
         print(article['title'][x] + " | " + article['date'][x] + " | " + article['location'][x] + " | " + article['link'][x] + "\n")
 ```
 ## OUTPUT
-![alt text](https://i.imgur.com/N8llFnv.jpg)
+```bash
+Title of Movie: Fate
+[DrX] Link: https://smtickets.com/events/search/Fate
+[DrX] Scraping ./.
+[DrX] Finished Appending
+SM Cinema Bacoor Fate Stay Night III - Spring Song | November 21, 2020 | SM CINEMA - BACOOR | https://smtickets.com/events/view/9470
+
+SM Cinema Masinag Fate Stay Night III - Spring Song | November 21, 2020 | SM CINEMA - MASINAG | https://smtickets.com/events/view/9471
+
+SM Cinema San Mateo Fate Stay Night III - Spring Song | November 21, 2020 | SM CINEMA - SAN MATEO | https://smtickets.com/events/view/9472
+```
