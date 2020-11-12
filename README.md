@@ -13,7 +13,7 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 ```python
 import scrapy as sm 
 ```
-<p style="text-align=center;">What we need to do is import scrapy.py In order to import it, the file must be in the same directory as scrapy.py, if it doesn't work use importlib</p>
+<p style="text-align=center;">What we need to do is import <strong>scrapy.py</strong> In order to import it, the file must be in the same directory as <strong>scrapy.py</strong>, if it doesn't work use <strong>importlib</strong></p>
 
 <hr>
 
@@ -22,8 +22,8 @@ import scrapy as sm
 
 sm.Search = Input("What to Search: ")
 ```
-<p style="text-align=center;">Now we call one of the variables in Scrappy which is **Search**, The **Search** Variable contains what to search on 
-     **<a href="https://smticket.com/">SM Ticket</a>**, we want to know what the user really wants to search so we add **Input** (Any method is fine as long as you pass a string variable.)</p>
+<p style="text-align=center;">Now we call one of the variables in Scrappy which is <strong>Search</strong>, The <strong>Search</strong> Variable contains what to search on 
+     <strong><a href="https://smticket.com/">SM Ticket</a></strong>, we want to know what the user really wants to search so we add <strong>Input</strong> (Any method is fine as long as you pass a string variable.)</p>
 
 ## USAGE [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket)
 ```python
