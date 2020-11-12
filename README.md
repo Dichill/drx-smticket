@@ -58,3 +58,5 @@ for article in FetchMovieResults():
 
 # =======================================================================================================#
 ```
+## Output
+![alt text](https://i.imgur.com/N8llFnv.jpg)
