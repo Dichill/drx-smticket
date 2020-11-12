@@ -1,8 +1,8 @@
 # SMTICKET | API | DJANGO | HEROKU
-DrX SMTICKET WEBSITE: *(Coming Soon)*
-DrX SMTICKET ANDROID: *(Coming Soon)*
-DrX SMTICKET PC: *(Coming Soon)*
-Official Link: https://smticket.com/
+* DrX SMTICKET WEBSITE: *(Coming Soon)*
+* DrX SMTICKET ANDROID: *(Coming Soon)*
+* DrX SMTICKET PC: *(Coming Soon)*
+* Official Link: https://smticket.com/
 
 ## FEATURES
 * **Fast Search and Fast Automated Bot!**
