@@ -10,6 +10,8 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 * Help the victims of **<a href="https://www.nbcnews.com/better/lifestyle/how-help-victims-hurricane-dorian-ncna1050851#:~:text=You%20can%20make%20a%20donation,phone%20bill%2C%20Cooper%20says).">Hurricane Dorian</a>**
 
 ## Documentation
+
+### Search Function
 ```python
 import scrapy as sm 
 ```
@@ -24,6 +26,8 @@ sm.Search = Input("What to Search: ")
 ```
 <p style="text-align:center;">Now we will call one of the variables in Scrappy which is <strong>Search</strong>, The <strong>Search</strong> Variable contains what to search on 
      <strong><a href="https://smticket.com/">SM Ticket</a></strong>, we want to know what the user really wants to search so we add <strong>Input</strong> <italic>(Any method is fine as long as you pass a string variable.)</italic></p>
+     
+<hr>
      
  ```python
 import scrapy as sm
@@ -40,10 +44,14 @@ except Exception as e:
 <p style="text-align:center;">Now we want to add a try/except to make it neat and to know what caused the problem. Mostly the problem that users will meet is that
 if they search an invalid movie title it will return a 'NoneType' exception or a Iterable exception.</p>
 
+<hr>
+
 ```python
 int(article['results'])
 ```
 <p style="text-align:center;">Now in the third example, why are we finding for the range of our results? Well its simple, we want to know how many results returned, lets say for example it returned a number of 9. Since we are in a for loop we want to print out on how many title, date, location, and link that the result gave.</p>
+
+<hr>
 
 ```python
 
