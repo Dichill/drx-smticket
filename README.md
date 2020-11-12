@@ -9,9 +9,9 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 * Official Website of **<a href="https://smtickets.com/">SM Ticket</a>**
 * Help the victims of **<a href="https://www.nbcnews.com/better/lifestyle/how-help-victims-hurricane-dorian-ncna1050851#:~:text=You%20can%20make%20a%20donation,phone%20bill%2C%20Cooper%20says).">Hurricane Dorian</a>**
 
-## Documentation
+## Documentation | Search Function
 
-### Search Function
+### Importing
 ```python
 import scrapy as sm 
 ```
@@ -19,6 +19,7 @@ import scrapy as sm
 
 <hr>
 
+### Search Variable
 ```python
 import scrapy as sm
 
@@ -28,7 +29,8 @@ sm.Search = Input("What to Search: ")
      <strong><a href="https://smticket.com/">SM Ticket</a></strong>, we want to know what the user really wants to search so we add <strong>Input</strong> <italic>(Any method is fine as long as you pass a string variable.)</italic></p>
      
 <hr>
-     
+
+### Fetching Movie Results
  ```python
 import scrapy as sm
 
@@ -46,6 +48,7 @@ if they search an invalid movie title it will return a 'NoneType' exception or a
 
 <hr>
 
+### Why find the Range?
 ```python
 int(article['results'])
 ```
@@ -53,12 +56,15 @@ int(article['results'])
 
 <hr>
 
+### Working with list
 ```python
 
 # Let x be any integer number
 article['title'][x]
 ```
 <p style="text-align:center;">As what it said, Let x be any integer number. As long as that number doesn't exceed on how many results are there in the search results. If you let x be '1' then it will print out the first title in the list.</p>
+
+<hr>
 
 ## USAGE [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket)
 ```python
