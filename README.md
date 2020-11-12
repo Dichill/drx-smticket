@@ -1,4 +1,4 @@
-# SM Ticket [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket)
+# SM Ticket [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket) <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/Django">
 
 <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/business/06/26/20190626-sm-cinema.jpg?ext=.jpg" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="170" height="170">
