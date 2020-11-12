@@ -23,7 +23,7 @@ import scrapy as sm
 sm.Search = Input("What to Search: ")
 ```
 <p style="text-align=center;">Now we will call one of the variables in Scrappy which is <strong>Search</strong>, The <strong>Search</strong> Variable contains what to search on 
-     <strong><a href="https://smticket.com/">SM Ticket</a></strong>, we want to know what the user really wants to search so we add <strong>Input</strong> (Any method is fine as long as you pass a string variable.)</p>
+     <strong><a href="https://smticket.com/">SM Ticket</a></strong>, we want to know what the user really wants to search so we add <strong>Input</strong> <italic>(Any method is fine as long as you pass a string variable.)</italic></p>
 
 ## USAGE [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/@Dichill/DrX-SMTicket)
 ```python
