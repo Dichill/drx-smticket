@@ -7,21 +7,6 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 
 ## USAGE
 ```python
-# =======================================================================================================#
-#                                                                                                        #
-#                      ___________                             .__                                       #
-#                      \_   _____/__  ________    _____ ______ |  |   ____   ______                      #
-#                       |    __)_\  \/  /\__  \  /     \\____ \|  | _/ __ \ /  ___/                      #
-#                       |        \>    <  / __ \|  Y Y  \  |_> >  |_\  ___/ \___ \                       #
-#                      /_______  /__/\_ \(____  /__|_|  /   __/|____/\___  >____  >                      #
-#                              \/      \/     \/      \/|__|             \/     \/                       #
-#                                                                                                        #
-#                                                                                                        #
-# =======================================================================================================#
-
-# =======================================================================================================#
-# NEW METHOD EXAMPLES
-
 # Gets only the "title" in a list
 #for article in FetchMovieResults():
 #    print(article['title'])
@@ -47,6 +32,7 @@ trying to have some fun in coding and such. Feel free to contribute and make som
     #print(article['title'])
     #print(article)
     
+# Gets all of them in an organized manner.
 for article in FetchMovieResults():
     for x in range(0, int(article['results'])):
         print(article['title'][x] + " | " + article['date'][x] + " | " + article['location'][x] + " | " + article['link'][x] + "\n")
