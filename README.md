@@ -10,7 +10,7 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 * Help the victims of **<a href="https://www.nbcnews.com/better/lifestyle/how-help-victims-hurricane-dorian-ncna1050851#:~:text=You%20can%20make%20a%20donation,phone%20bill%2C%20Cooper%20says).">Hurricane Dorian</a>**
 
 
-<img src="https://imgur.com/ixQ4MMA" align="center"
+<img src="https://i.imgur.com/ixQ4MMA.png" align="center"
      alt="SM Ticket Scraper">
 
 # Installation
