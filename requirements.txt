@@ -1,3 +1,5 @@
-requests==2.24.0
 selenium==3.141.0
+~jango==3.1
+requests==2.24.0
 beautifulsoup4==4.9.3
+Django==3.1.3
