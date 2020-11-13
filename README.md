@@ -127,7 +127,7 @@ SM Cinema Masinag Fate Stay Night III - Spring Song | November 21, 2020 | SM CIN
 SM Cinema San Mateo Fate Stay Night III - Spring Song | November 21, 2020 | SM CINEMA - SAN MATEO | https://smtickets.com/events/view/9472
 ```
 
-# Update Logs
+## Update Logs
 ```bash
 [+] November 12 2020 | 6:00 PM  -> Updated Scraper
 [+] November 11 2020 | 11:00 PM -> Creation of SM Ticket
