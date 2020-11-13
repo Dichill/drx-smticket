@@ -16,6 +16,10 @@ pip install -r requirements.txt
 
 # Documentation <img alt="Read the Docs" src="https://img.shields.io/readthedocs/pip">
 ### Table of Contents
+* Fetch Attractions Function *(Coming Soon)*
+* Fetch Other Venues Function *(Coming Soon)*
+* Fetch SM Venues Function *(Coming Soon)*
+* Fetch Events Function *(Coming Soon)*
 * Search Function
 
 <hr>
