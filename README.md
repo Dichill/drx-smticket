@@ -16,8 +16,10 @@ pip install -r requirements.txt
 
 ## Documentation <img alt="Read the Docs" src="https://img.shields.io/readthedocs/pip">
 ### Table of Contents
-* Search Functions
+* Search Function
 
+<hr>
+### Search Function
 ### Importing
 ```python
 import scrapy as sm 
