@@ -20,6 +20,7 @@ pip install -r requirements.txt
 * Fetch Other Venues Function *(Coming Soon)*
 * Fetch SM Venues Function *(Coming Soon)*
 * Fetch Events Function *(Coming Soon)*
+* Fetch Events View Function *(Coming Soon)*
 * Search Function
 
 <hr>
@@ -124,4 +125,10 @@ SM Cinema Bacoor Fate Stay Night III - Spring Song | November 21, 2020 | SM CINE
 SM Cinema Masinag Fate Stay Night III - Spring Song | November 21, 2020 | SM CINEMA - MASINAG | https://smtickets.com/events/view/9471
 
 SM Cinema San Mateo Fate Stay Night III - Spring Song | November 21, 2020 | SM CINEMA - SAN MATEO | https://smtickets.com/events/view/9472
+```
+
+# Update Logs
+```bash
+[+] November 12 2020 | 6:00 PM  -> Updated Scraper
+[+] November 11 2020 | 11:00 PM -> Creation of SM Ticket
 ```
