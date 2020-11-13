@@ -14,13 +14,13 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 pip install -r requirements.txt
 ```
 
-## Documentation <img alt="Read the Docs" src="https://img.shields.io/readthedocs/pip">
+# Documentation <img alt="Read the Docs" src="https://img.shields.io/readthedocs/pip">
 ### Table of Contents
 * Search Function
 
 <hr>
 
-### Search Function
+## Search Function <img alt="Read the Docs" src="https://img.shields.io/readthedocs/pip">
 ### Importing
 
 ```python
