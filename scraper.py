@@ -47,9 +47,9 @@ ErrorMessage = set()
 IsError = False
 
 
+#from selenium import webdriver
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as bs4
-from selenium import webdriver
 import requests
 import time
 import json
