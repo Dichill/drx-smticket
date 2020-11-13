@@ -12,7 +12,7 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 
 <img src="https://i.imgur.com/ixQ4MMA.png" align="center"
      alt="SM Ticket Scraper">
-
+<p style="text-align: center;">Not the final release. (Made in Django)</p>
 # Installation
 ```bash
 pip install -r requirements.txt
