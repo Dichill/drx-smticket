@@ -9,7 +9,7 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 * Official Website of **<a href="https://smtickets.com/">SM Ticket</a>**
 * Help the victims of **<a href="https://www.nbcnews.com/better/lifestyle/how-help-victims-hurricane-dorian-ncna1050851#:~:text=You%20can%20make%20a%20donation,phone%20bill%2C%20Cooper%20says).">Hurricane Dorian</a>**
 
-## Installation
+# Installation
 ```bash
 pip install -r requirements.txt
 ```
