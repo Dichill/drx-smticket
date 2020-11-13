@@ -19,8 +19,10 @@ pip install -r requirements.txt
 * Search Function
 
 <hr>
+
 ### Search Function
 ### Importing
+
 ```python
 import scrapy as sm 
 ```
