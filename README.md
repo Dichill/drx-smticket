@@ -42,7 +42,7 @@ import scrapy as sm
 sm.Search = Input("What to Search: ")
 
 try:
-    for article in scraper.FetchMovieResults():
+    for article in sm.FetchMovieResults():
         for x in range(0, int(article['results'])):
             print(article['title'][x] + " | " + article['date'][x] + " | " + article['location'][x] + " | " + article['link'][x] + "\n")
 except Exception as e:
