@@ -14,7 +14,9 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 pip install -r requirements.txt
 ```
 
-## Documentation | Search Function <img alt="Read the Docs" src="https://img.shields.io/readthedocs/pip">
+## Documentation <img alt="Read the Docs" src="https://img.shields.io/readthedocs/pip">
+### Table of Contents
+* Search Functions
 
 ### Importing
 ```python
