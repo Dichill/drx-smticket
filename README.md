@@ -135,6 +135,7 @@ SM Cinema San Mateo Fate Stay Night III - Spring Song | November 21, 2020 | SM C
 
 ## Update Logs <img alt="Updates" src="https://img.shields.io/badge/Logs-Updates-orange">
 ```bash
+[+] November 13 - 14 2020 -> Creating and Updating Django | https://youtu.be/GMgXMCb0Hls
 [+] November 12 2020 | 6:00 PM  -> Updated Scraper
 [+] November 11 2020 | 11:00 PM -> Creation of SM Ticket
 ```
