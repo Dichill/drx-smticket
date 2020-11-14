@@ -1,4 +1,5 @@
 # SM Ticket <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/Django"> <img alt="Dichill" src="https://img.shields.io/badge/SM-Tickets-blue"> 
+**DISCLAIMER** This is just a fun project, and I don't have a lot of time to work on this. I'm a highschool student and the schedule is a pain in the ass. I justr hope you can understand or learn something from my "fun" projects. Have fun coding.
 
 <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/business/06/26/20190626-sm-cinema.jpg?ext=.jpg" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="200" height="170">
