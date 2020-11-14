@@ -13,7 +13,8 @@ trying to have some fun in coding and such. Feel free to contribute and make som
 <img src="https://i.imgur.com/ixQ4MMA.png" align="center"
      alt="SM Ticket Scraper">
      
-<p style="text-align: center;">Not the final release. (Made in Django)</p>
+## Documentation
+* Watch **<a href="https://youtu.be/GMgXMCb0Hls"> Devlog 1</a>**
 
 # Installation
 ```bash
