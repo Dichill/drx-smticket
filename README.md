@@ -8,7 +8,7 @@ DrX - SM Ticket is a API and a Website and can be accesible to anyone to get dai
 trying to have some fun in coding and such. Feel free to contribute and make some changes in the **<a href="https://github.com/Dichill/drx-smticket/issues">Issues</a>** page.
 
 * Official Website of **<a href="https://smtickets.com/">SM Ticket</a>**
-* Help the victims of **<a href="https://www.nbcnews.com/better/lifestyle/how-help-victims-hurricane-dorian-ncna1050851#:~:text=You%20can%20make%20a%20donation,phone%20bill%2C%20Cooper%20says).">Hurricane Dorian</a>**
+* Help the victims of **<a href="#").">Hurricane Dorian</a>**
 
 
 <img src="https://i.imgur.com/ixQ4MMA.png" align="center"
