@@ -8,7 +8,7 @@ DrX - SM Ticket is a API and a Website and can be accesible to anyone to get dai
 trying to have some fun in coding and such. Feel free to contribute and make some changes in the **<a href="https://github.com/Dichill/drx-smticket/issues">Issues</a>** page.
 
 * Official Website of **<a href="https://smtickets.com/">SM Ticket</a>**
-* Help the victims of **<a href="#").">Hurricane Dorian</a>**
+* Help the victims of **<a href="#"">Hurricane Dorian</a>**
 
 
 <img src="https://i.imgur.com/ixQ4MMA.png" align="center"
@@ -16,6 +16,7 @@ trying to have some fun in coding and such. Feel free to contribute and make som
      
 ## Documentation
 * Watch **<a href="https://youtu.be/GMgXMCb0Hls"> Devlog 1</a>**
+* Watch **<a href="https://youtu.be/yyGjh979Tss"> Devlog 2</a>**
 
 # Installation
 ```bash
