@@ -1,0 +1,44 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SM Ticket | DrX API</title>
+    </head>
+  <body style="background-color: rgb(24,24,24); color:white;">
+
+    <!-- Events & Venues -->
+    <h1 id="drx-events">Events and Venues</h1>
+    <div class="table" style="color:white;">
+    <table>
+        <tbody>
+            {% for s in events %}
+            <tr class="drx">
+                <td>
+                    <a href="{{ s.link }}"><img src="{{ s.image }}" alt="" width="200" height="250"></a>
+                </td>
+                <td>
+                    <a href="{{ s.link }}">{{ s.title }}</a>
+                </td>
+                <td>
+                    <p>
+                        Location: {{ s.location }}
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        Date: {{ s.date }}
+                    </p>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+  </div>
+  
+  </body>
+</html>
+{% endblock content %}
