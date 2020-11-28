@@ -1,0 +1,64 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SM Ticket | DrX API | Login</title>
+
+		<style>
+			#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid rgb(42,42,42);
+  background-color: rgb(42,42,42);
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+.text-info {
+	color:White!important;
+}
+		</style>
+    </head>
+  <body style="background-color: rgb(24,24,24); color:white;">
+    <div id="login">
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">SMTickets Login</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Username:</label><br>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password:</label><br>
+                                <input type="password" name="password" id="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                <input type="submit" name="submit" class="btn btn-primary" value="Login">
+                            </div>
+                            <div id="register-link" class="text-right">
+                                <a href="https://smtickets.com/users/register" class="text-info">Register here</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="disclaimer">
+		<p style="margin:10px;text-align:center;font-style:italic; font-size:12px;">Disclaimer! We won't steal any of your contact information and such nor sell your account.</p>
+	</div>
+  </body>
+{% endblock content %}

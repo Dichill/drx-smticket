@@ -21,7 +21,9 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="{% url 'home' %}#drx-events">Events</a>
-          
+          <a class="dropdown-item" href="{% url 'home' %}#drx-smvenues">SM Venues</a>
+          <a class="dropdown-item" href="{% url 'home' %}#drx-othervenues">Other Venues</a>
+          <a class="dropdown-item" href="{% url 'home' %}#drx-attractions">Attractions</a>
           <!--
           <a class="dropdown-item" href="#">Another action</a>
           <div class="dropdown-divider"></div>
@@ -73,15 +75,21 @@ Swal.fire({
   if (result.dismiss === Swal.DismissReason.timer) {
     window.location.href = url;
   }
-})
-
-          
+})     
         }
       }
     </script>
     
     </ul>
-      <input class="form-control mr-sm-2" style="background-color: rgb(24,24,24); border-color: rgb(24,24,24); color:white;" id="q" type="search" placeholder="Search" aria-label="Search">
+      <input class="form-control mr-sm-2" style="background-color: rgb(24,24,24); border-color: rgb(24,24,24); color:white;width:50;" id="q" type="search" placeholder="Search" aria-label="Search">
+      
+      <select id="location" class="browser-default custom-select" style="width:30%;background-color:rgb(24,24,24);border-color:rgb(24,24,24);color:white;margin:5px;">
+        <option selected="">Location</option>
+        <option value="1">Mall of Asia</option>
+        <option value="2">MASINAG</option>
+        <option value="3">BACOOR</option>
+      </select>
+
       <input class="btn btn-primary" type="button" onclick="DoSubmit();" value="Search">
   </div>
 </nav>

@@ -9,9 +9,9 @@
         <title>SM Ticket | DrX API Search Results</title>
     </head>
   <body style="background-color: rgb(24,24,24); color:white;">
-
+  
     <div class="table" style="color:white;">
-    <table>
+    <table style="margin-left: auto; margin-right: auto;">
         <tbody>
             {% for s in movies %}
             <tr>
@@ -27,6 +27,9 @@
                     <p>
                         Date: {{ s.date }}
                     </p>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" onclick="window.location='{{ s.link }}'">Automate</button>
                 </td>
             </tr>
             {% endfor %}

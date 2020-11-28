@@ -1,0 +1,190 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SM Ticket | DrX API | Automate</title>
+
+		<style>
+            .param {
+    margin-bottom: 7px;
+    line-height: 1.4;
+}
+.param-inline dt {
+    display: inline-block;
+}
+.param dt {
+    margin: 0;
+    margin-right: 7px;
+    font-weight: 600;
+}
+.param-inline dd {
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+.param dd {
+    margin: 0;
+    vertical-align: baseline;
+} 
+
+.shopping-cart-wrap .price {
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+    display: block;
+}
+var {
+    font-style: normal;
+}
+
+.media img {
+    margin-right: 1rem;
+}
+.img-sm {
+    width: 90px;
+    max-height: 75px;
+    object-fit: cover;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid rgb(24,24,24);
+}
+        </style>
+
+    </head>
+  <body style="background-color: rgb(24,24,24); color:white;">
+    <script>
+        var save = true;
+
+        function AddToCart() {
+            let timerInterval
+
+            Swal.fire({
+  title: 'Please wait',
+  html: 'Adding to Cart!',
+  timer: 1000,
+  timerProgressBar: true,
+  willOpen: () => {
+    Swal.showLoading()
+  },
+  willClose: () => {
+    clearInterval(timerInterval)
+  }
+}).then((result) => {
+  /* Read more about handling dismissals below */
+  if (result.dismiss === Swal.DismissReason.timer) {
+    console.log("[DrX] Saved")
+    save = false;
+  }
+})     
+        }
+    </script>
+
+
+
+    <div class="container">
+	
+	<div class="row">
+	    <!-- side nav-->
+	    <aside class="col-sm-6 col-md-3 card  my-4" style="color: rgb(24,24,24);background-color: rgb(24,24,24)">
+	        <h3 style="text-align:center;color:white;">Config</h3>
+	        <hr>
+	        <ul style="text-align:center;">
+	            <li>
+	                <a href="#" class="active"> 
+    	                <span class="fa fa-gear"></span>
+    	                General Settings
+	                </a>
+	            </li>
+	        </ul>
+	    </aside>
+	    
+	    <section class="col-sm-6 col-md-8 offset-md-1" id="main-content">
+	        <div class="pull-right mb-4">
+            <h3 style="text-align:center;">Dichill Tomarong</h3>
+	        <form method="" action="" class="container">
+	            
+	            <div class="input-group mb-5">
+                    <label style="text-align:center;margin:10px 20px;">SM CINEMA SAN MATEO C4 - NOV 28 - DEMON SLAYER THE MOVIE : MUGEN TRAIN</label>
+                </div>
+	            <div class="row">
+	                <label for="notifications">Preferred Date</label>
+                    <span id="notifications" class="form-text text-muted">
+                        Choose a specific date that you want to watch the movie on. Please be mindful when looking at the configuration
+                    </span>
+	            </div>    
+                
+                <div class="btn-group my-2 mb-2 my-2 " data-toggle="buttons">
+                <select class="custom-select">
+                    <option selected>November 28, 2020 | 4:30 PM</option>
+                    <option value="1">December 12, 2020 | 4:30 PM</option>
+                </select>
+            	</div>
+
+                <div class="row">
+	                <label for="notifications">Tickets</label>
+	            </div>   
+
+                <div class="card" style="background-color: rgb(24,24,24);">
+<table class="table table-hover shopping-cart-wrap">
+<thead class="text-muted">
+<tr style="color:white;">
+  <th scope="col">Location</th>
+  <th scope="col" width="120">Quantity</th>
+  <th scope="col" width="120">Price</th>
+  <th scope="col" width="200" class="text-right">Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>
+<figure class="media">
+	<figcaption class="media-body">
+		<h6 class="title text-truncate" style="color:white;">Screening 4:30 PM</h6>
+	</figcaption>
+</figure> 
+	</td>
+	<td> 
+		<select class="form-control">
+			<option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+		</select> 
+	</td>
+	<td> 
+		<div class="price-wrap"> 
+			<var class="price">₱1,800.00</var> 
+			<small class="text-muted">(₱60 each)</small> 
+		</div> <!-- price-wrap .// -->
+	</td>
+	<td class="text-right"> 
+	    <a class="btn btn-outline-success" data-toggle="tooltip" data-original-title="Save to Wishlist" onclick="AddToCart()"> <i class="fa fa-heart"></i></a> 
+	</td>
+</tr>
+</tbody>
+</table>
+</div> <!-- card.// -->
+
+</div> 
+<!--container end.//-->
+	        </form>
+            <button type="button" class="btn btn-success btn-lg btn-block my-4 mb-4 ">Start</button>
+	    </section>
+	
+	</div>
+</div>
+  </body>
+{% endblock content %}
