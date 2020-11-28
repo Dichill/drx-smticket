@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from rest_framework.urlpatterns import format_suffix_patterns
 from django.contrib import admin
 from django.urls import path
 from api import views
@@ -25,5 +26,18 @@ handler400 = 'api.views.custom_bad_request_view'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name="home"),
-    path('results/', views.search, name="results")
+    path('documentation/', views.documentation, name="documentation"),
+    path('results/', views.search, name="results"),
+
+    # API
+    path('api/', views.documentation, name="documentation"),
+    path('api/sm_venues', views.SMVenues.as_view(), name="API_SMVENUES"), # SM Venues
+    path('api/sm_events', views.SMEvent.as_view(), name="API_SMEVENTS"), # SM Events
+    path('api/sm_othervenues', views.OtherVenues.as_view(), name="API_SMOTHERVENUES"), # SM Other Venues
+    path('api/sm_attractions', views.Attractions.as_view(), name="API_ATTRACTIONS"), # SM Attractions
+
+    # Automation
+    path('login/', views.login, name="login"),
+    path('automate/', views.automate, name="automate")
 ]
+
